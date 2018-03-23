@@ -19,9 +19,7 @@ src: url(../fonts/LemonMilk.otf);
 .pad-section {
   padding: 50px 0;
 }
-.pad-section img {
-  width: 100vh;
-}
+
 /* vertical-centered text */
 .text-vcenter {
   display: table-cell;
@@ -53,6 +51,11 @@ src: url(../fonts/LemonMilk.otf);
   color: #000;
   font-size: 60px;
 }
+.h4font{
+  font-family: moon get;
+  color: #ffffff;
+  font-size: 60px;
+}
 /* additional sections */
 #home {
  background-color: #eaeaea;
@@ -80,6 +83,9 @@ src: url(../fonts/LemonMilk.otf);
   color: white;
   padding-top: 15vh;
 }
+li{
+  list-style: none;
+}
 
 #skills {
   background: url(../images/pic03.jpg) no-repeat center center fixed;
@@ -100,7 +106,16 @@ src: url(../fonts/LemonMilk.otf);
 #list>li:hover{
   font-size: 45px;
 }
+#mywork{
+  background-color: #000000;
+  height: 100vh;
+}
 footer {
   background-color: #000000;
   height: 50vh;
+}
+
+.iconss{
+  width: 40px;
+  padding: 5px;
 }
