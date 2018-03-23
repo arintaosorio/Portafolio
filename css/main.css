@@ -1,0 +1,106 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+@font-face {
+font-family: moon get;
+src: url(../fonts/moon_get-Heavy.ttf);
+}
+@font-face {
+font-family: lemon;
+src: url(../fonts/LemonMilk.otf);
+}
+.nav-item{
+  font-family: lemon;
+  font-size: 15px;
+}
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100vh;
+}
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.h1font{
+  font-family: moon get;
+  color: #000;
+}
+.dot{
+   font-family: moon get;
+  color: #ff3f70
+}
+.h2font{
+    font-family: lemon;
+  color: #ffffff;
+  font-size: 70px;
+}
+.h3font{
+  font-family: moon get;
+  color: #000;
+  font-size: 60px;
+}
+/* additional sections */
+#home {
+ background-color: #eaeaea;
+  height: 100%;
+  width: 100%;
+}
+.imgtitle{
+  width: 80%;
+  padding-top: 20vh;
+}
+.imgetitle:hover {
+  width: 90%;
+}
+
+#about {  
+  background: url(../images/pic02.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  padding-top: 15vh;
+}
+
+#skills {
+  background: url(../images/pic03.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   padding-top: 15vh;
+}
+#list>li{
+  list-style: none;
+  font-size: 25px;
+}
+#list>li:hover{
+  font-size: 45px;
+}
+footer {
+  background-color: #000000;
+  height: 50vh;
+}
