@@ -14,12 +14,17 @@ src: url(../fonts/LemonMilk.otf);
 .nav-item{
   font-family: lemon;
   font-size: 15px;
+
 }
 /* padded section */
 .pad-section {
   padding: 50px 0;
 }
 
+.menu2{
+  color: white;
+
+}
 /* vertical-centered text */
 .text-vcenter {
   display: table-cell;
@@ -58,9 +63,12 @@ src: url(../fonts/LemonMilk.otf);
 }
 /* additional sections */
 #home {
- background-color: #eaeaea;
+ background-image: url(../images/1.jpg);
+background-position: center;
+  background-size: cover;
   height: 100%;
   width: 100%;
+  color: white;
 }
 .imgtitle{
   width: 80%;
